@@ -1,47 +1,113 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Open Sans', sans-serif;
-}
+          /* Main project starts  */
+          * {
+              margin: 0px;
+              padding: 0px;
+              font-family: 'Open Sans', sans-serif;
+          }
 
-header {
-    background-color: rgb(255, 236, 239);
-}
+          /* Banner section starts here  */
+          header {
+              background-color: rgb(255, 236, 239);
+          }
 
-.banner {
-    height: 94vh;
-    margin-right: 10%;
-    margin-left: 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 45px;
-}
+          .banner {
+              height: 94vh;
+              margin-right: 10%;
+              margin-left: 10%;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding-top: 45px;
+          }
 
-.image-1 {
-    width: 450px;
-}
+          .image-1 {
+              width: 450px;
+          }
 
-.banner-writings {
-    width: 50%;
-}
+          .banner-writings {
+              width: 50%;
+          }
 
-.banner-title {
-    font-size: 60px;
-    font-weight: bolder;
-}
+          .banner-title {
+              font-size: 50px;
+              font-weight: bolder;
+          }
 
-.banner-description {
-    font-size: 13px;
-    color: rgb(141, 141, 141);
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+          .banner-description {
+              font-size: 13px;
+              color: rgb(141, 141, 141);
+              margin-top: 20px;
+              margin-bottom: 20px;
+          }
 
-.btn-primary {
-    padding: 10px 20px;
-    color: white;
-    background-color: rgb(255, 77, 106);
-    border: none;
-    border-radius: 8px;
-}
+          .btn-primary {
+              padding: 10px 20px;
+              color: white;
+              background-color: rgb(255, 77, 106);
+              border: none;
+              border-radius: 8px;
+          }
+
+          /* Featured flowers section starts */
+          .featured-flower {
+              margin-top: 100px;
+          }
+
+          .featured-flower-title {
+              text-align: center;
+              font-size: 25px;
+              font-size: 800;
+          }
+
+          .featured-flower-description {
+              margin-top: 15px;
+              text-align: center;
+              font-size: 13px;
+              color: rgb(141, 141, 141);
+          }
+          .all-flowers{
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+            margin-top: 30px;
+          }
+          .flower {
+            width: 270px;
+            height: 350px;
+          }
+          .pink-flower {
+            width: 250px;
+            height: 346px;
+            padding-right: 10%;
+            padding-left: 10%;
+            padding-top: 10%;
+            background-color: rgb(240, 207, 240);
+            border-top-left-radius: 150px;
+            border-top-right-radius: 150px;
+          }
+          .flower-name {
+            text-align: center;
+            margin: 15px;
+            font-size: 15px;
+            font-weight: 700;
+          }
+          .bouquet-flower{
+            width: 250px;
+            height: 346px;
+            padding-right: 10%;
+            padding-left: 10%;
+            padding-top: 10%;
+            background-color: rgb(207, 241, 241);
+            border-top-left-radius: 150px;
+            border-top-right-radius: 150px;
+          }
+          .yellow-flower {
+            width: 250px;
+            height: 346px;
+            padding-right: 10%;
+            padding-left: 10%;
+            padding-top: 10%;
+            background-color: rgb(219, 219, 219);
+            border-top-left-radius: 150px;
+            border-top-right-radius: 150px;
+          }
