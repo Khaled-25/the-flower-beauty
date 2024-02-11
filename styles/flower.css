@@ -3,3 +3,45 @@
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+
+header {
+    background-color: rgb(255, 236, 239);
+}
+
+.banner {
+    height: 94vh;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.image-1 {
+    width: 450px;
+}
+
+.banner-writings {
+    width: 50%;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.banner-description {
+    font-size: 13px;
+    color: rgb(141, 141, 141);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(255, 77, 106);
+    border: none;
+    border-radius: 8px;
+}
