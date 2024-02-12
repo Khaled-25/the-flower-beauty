@@ -81,7 +81,7 @@
             padding-right: 10%;
             padding-left: 10%;
             padding-top: 10%;
-            background-color: rgb(240, 207, 240);
+            background-color: rgb(255, 229, 255);
             border-top-left-radius: 150px;
             border-top-right-radius: 150px;
           }
@@ -90,6 +90,7 @@
             margin: 15px;
             font-size: 15px;
             font-weight: 700;
+            color: rgb(48, 47, 47);
           }
           .bouquet-flower{
             width: 250px;
@@ -97,7 +98,7 @@
             padding-right: 10%;
             padding-left: 10%;
             padding-top: 10%;
-            background-color: rgb(207, 241, 241);
+            background-color: rgb(217, 238, 238);
             border-top-left-radius: 150px;
             border-top-right-radius: 150px;
           }
@@ -107,7 +108,26 @@
             padding-right: 10%;
             padding-left: 10%;
             padding-top: 10%;
-            background-color: rgb(219, 219, 219);
+            background-color: rgb(238, 238, 238);
             border-top-left-radius: 150px;
             border-top-right-radius: 150px;
           }
+          /* This is the Short details section  */
+          .details {
+            width: 67%;
+            height: 130px;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: rgb(235, 235, 235);
+            margin-top: 150px;
+            margin-right: 170px;
+            text-align: center;
+            padding: 40px;
+          }
+          .delivery-description {
+            font-size: 15px;
+            color: rgb(80, 80, 80);
+          }
+          
