@@ -168,3 +168,27 @@
           .pink {
             color: rgb(255, 77, 106);
           }
+
+          /* instagram related styles  */
+          .instagram {
+            margin-top: 100px;
+          }
+
+          .instagram-title {
+            text-align: center;
+            font-size: 25px;
+            font-size: 800;
+            margin-bottom: 20px;
+          }
+
+          .instagram-description {
+            font-size: 13px;
+            color: rgb(141, 141, 141);
+            text-align: center;
+            margin-bottom: 20px;
+          }
+          .instagram-flowers {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+          }
