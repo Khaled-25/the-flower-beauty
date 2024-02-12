@@ -211,24 +211,53 @@
           .deal-title {
             text-align: center;
             font-size: 25px;
-            font-size: 800;
+            font-weight: 800;
             margin-bottom: 10px;
           }
+
           .deal-description {
             font-size: 13px;
             color: rgb(141, 141, 141);
             text-align: center;
             margin-bottom: 30px;
           }
+
           .buttons {
             display: flex;
             justify-content: center;
             gap: 10px;
           }
+
           .input {
             width: 400px;
             height: 18px;
             border: none;
             border-radius: 10px;
             padding: 10px 15px;
+          }
+
+          /* Footer related styles  */
+          footer {
+            background-color: black;
+            color: white;
+            height: 20vh;
+            padding: 100px;
+          }
+
+          .footer-title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 20px;
+          }
+          .footer-description {
+            font-size: 13px;
+            color: rgb(194, 194, 194);
+            text-align: center;
+            margin-bottom: 30px;
+          }
+          .footer-end {
+            font-size: 10px;
+            color: rgb(129, 129, 129);
+            text-align: center;
           }
