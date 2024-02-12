@@ -2,7 +2,16 @@
           * {
             margin: 0px;
             padding: 0px;
-            font-family: 'Open Sans', sans-serif;
+          }
+
+          header {
+            font-family: 'Ubuntu', sans-serif;
+          }
+
+          
+
+          main, footer {
+            font-family: 'Protest Revolution', sans-serif;
           }
 
           /* Banner section related styles starts here  */
@@ -250,15 +259,18 @@
             font-weight: 800;
             margin-bottom: 20px;
           }
+
           .footer-description {
             font-size: 13px;
             color: rgb(194, 194, 194);
             text-align: center;
             margin-bottom: 30px;
           }
+
           .copyright {
             text-align: center;
           }
+
           .footer-end {
             font-size: 10px;
             color: rgb(129, 129, 129);
