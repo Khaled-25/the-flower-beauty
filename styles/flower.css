@@ -8,9 +8,10 @@
             font-family: 'Ubuntu', sans-serif;
           }
 
-          
 
-          main, footer {
+
+          main,
+          footer {
             font-family: 'Protest Revolution', sans-serif;
           }
 
@@ -50,7 +51,7 @@
           }
 
           .btn-primary {
-            padding: 10px 20px;
+            padding: 10px 15px;
             color: white;
             background-color: rgb(255, 77, 106);
             border: none;
@@ -126,6 +127,25 @@
             background-color: rgb(238, 238, 238);
             border-top-left-radius: 150px;
             border-top-right-radius: 150px;
+          }
+
+          /* Payment related styles  */
+          .payment {
+            margin-top: 150px;
+            padding-top: 50px;
+          }
+          .payment-title {
+            text-align: center;
+            font-size: 25px;
+            font-weight: 800;
+            margin-bottom: 15px;
+          }
+
+          .payment-description {
+            font-size: 13px;
+            color: rgb(141, 141, 141);
+            text-align: center;
+            margin-bottom: 20px;
           }
 
           /* This is the Short details section related styles */
@@ -244,6 +264,7 @@
             border-radius: 10px;
             padding: 10px 15px;
           }
+
 
           /* Footer related styles  */
           footer {
